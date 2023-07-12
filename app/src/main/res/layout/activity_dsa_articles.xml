@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dsavideos">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15sp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/elearning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:fontFamily="@font/acme"
+            android:text="DSA Playlist"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="29sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/array"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:text="Arrays"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/string"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="Strings"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/linkedlist"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="Linked List"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/Stack"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="Stack"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/queue"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:textColor="@color/purple_200"
+            android:fontFamily="@font/acme"
+            android:text="Queues"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/recursion"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/purple_200"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:text="Recursion"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/tree"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/purple_200"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:text="Tree"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/graph"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="graph"
+            android:textSize="20dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/backtracking"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="backtracking"
+            android:textSize="20dp"
+            android:textStyle="" />
+
+        <Button
+            android:id="@+id/matrix"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="matrix"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/trie"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="trie"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/Searchsort"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+
+            android:text="Searching and sorting"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/framework"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:text="collection framework"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/heap"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="heap"
+            android:textSize="20dp"
+
+            android:textStyle="" />
+        <Button
+            android:id="@+id/greedy"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:fontFamily="@font/acme"
+            android:textColor="@color/purple_200"
+            android:text="greedy"
+            android:textSize="20dp"
+            android:textStyle="" />
+        <Button
+            android:id="@+id/dp"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="5sp"
+
+            android:textColor="@color/purple_200"
+            android:fontFamily="@font/acme"
+            android:text="Dynamic Programming"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="" />
+
+
+    </LinearLayout>
+
+</ScrollView>

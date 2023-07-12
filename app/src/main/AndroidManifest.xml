@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aspire"
+        tools:targetApi="31">
+        <activity
+            android:name=".imagegen"
+            android:exported="false" />
+        <activity
+            android:name=".asksparky"
+            android:exported="false" />
+        <activity
+            android:name=".cnweb"
+            android:exported="false" />
+        <activity
+            android:name=".dbmsweb"
+            android:exported="false" />
+        <activity
+            android:name=".osweb"
+            android:exported="false" />
+        <activity
+            android:name=".gamedevyotube"
+            android:exported="false" />
+        <activity
+            android:name=".appdevweb"
+            android:exported="false" />
+        <activity
+            android:name=".webdevweb"
+            android:exported="false" />
+        <activity
+            android:name=".pythonweb"
+            android:exported="false" />
+        <activity
+            android:name=".javaweb"
+            android:exported="false" />
+        <activity
+            android:name=".cppvideo"
+            android:exported="false" />
+        <activity
+            android:name=".dsayoutube"
+            android:exported="false" />
+        <activity
+            android:name=".dsaweb"
+            android:exported="false" />
+        <activity
+            android:name=".dsaArticles"
+            android:exported="false" />
+        <activity
+            android:name=".dsavideos"
+            android:exported="false" />
+        <activity
+            android:name=".coreSubjects"
+            android:exported="false" />
+        <activity
+            android:name=".development"
+            android:exported="false" />
+        <activity
+            android:name=".programming"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

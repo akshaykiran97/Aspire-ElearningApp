@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "503648510984",
+    "project_id": "aspire-21f7b",
+    "storage_bucket": "aspire-21f7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503648510984:android:201a42a7327248db9d1dbd",
+        "android_client_info": {
+          "package_name": "com.akshay.aspire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503648510984-iukt78ip0nnmokrjmn80f3tjvuonbcm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANyqlc0hc2YcKCqyTuIZ6nPt7txdOpXF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503648510984-iukt78ip0nnmokrjmn80f3tjvuonbcm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

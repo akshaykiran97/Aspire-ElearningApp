@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aspire</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="register">Register</string>
+    <string name="new_to_instagram_register">New to Aspire?</string>
+    <string name="already_a_user_login">Already a user? LogIn</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="hello">Hello</string>
+    <string name="my_name_is_sparky">My Name is Sparky</string>
+    <string name="i_am_here_to_help_you">I am here to Help You</string>
+    <string name="categories">Categories:</string>
+    <string name="asksparky">AskSparky</string>
+    <string name="imagegen">imagegen</string>
+    <string name="dsa">DSA</string>
+    <string name="development">Development</string>
+    <string name="coresubjects">CoreSubjects</string>
+    <string name="dsaArticles">dsaArticles</string>
+    <string name="dsaVideos">dsaVideos</string>
+    <string name="programming_languages">Programming Languages:</string>
+    <string name="data_structures_an_algorithms">Data Structures an Algorithms:</string>
+</resources>
